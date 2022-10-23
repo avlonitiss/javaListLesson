@@ -76,6 +76,13 @@ public class ListLesson {
         for (int i = countries.size(); i-- > 0; ) {
             System.out.println(countries.get(i));
             }
+        
+        
+        /*
+        forEACH
+        */
+        
+        countries.forEach(System.out::println);
     }
     
 }
