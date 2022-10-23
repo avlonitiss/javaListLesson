@@ -7,6 +7,7 @@ package com.iek.javalistlesson;
 import java.util.Arrays;
 import java.util.Iterator;
 import java.util.List;
+import java.util.ListIterator;
 
 /**
  *
@@ -44,6 +45,17 @@ public class ListLesson {
             while(countriesIterator.hasNext()) {
                 System.out.println(countriesIterator.next()); 
             }
+            
+            
+        /*
+            ListIterator
+            */
+        ListIterator<String> listIterator = countries.listIterator();
+
+            while(listIterator.hasNext()) {
+                System.out.println(listIterator.next());
+            }
+        
     }
     
 }
