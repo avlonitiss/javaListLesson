@@ -55,6 +55,18 @@ public class ListLesson {
             while(listIterator.hasNext()) {
                 System.out.println(listIterator.next());
             }
+            
+        
+            /*
+            Backward ListIterator
+            */
+            
+        ListIterator backwardIterator;
+            backwardIterator=countries.listIterator(countries.size());
+
+            while (backwardIterator.hasPrevious()) {
+                System.out.println(backwardIterator.previous());
+            }
         
     }
     
