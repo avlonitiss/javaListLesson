@@ -23,6 +23,15 @@ public class ListLesson {
         for (int i = 0; i < countries.size(); i++) {
             System.out.println(countries.get(i));
         }
+        
+        /* Enhanced Loop Function
+        
+      
+        */
+        
+        for (String country : countries) {
+            System.out.println(country); 
+        }
     }
     
 }
