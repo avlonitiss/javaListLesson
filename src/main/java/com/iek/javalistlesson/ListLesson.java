@@ -68,6 +68,14 @@ public class ListLesson {
                 System.out.println(backwardIterator.previous());
             }
         
+       
+            /*
+            Reverse FOR
+            */
+            
+        for (int i = countries.size(); i-- > 0; ) {
+            System.out.println(countries.get(i));
+            }
     }
     
 }
