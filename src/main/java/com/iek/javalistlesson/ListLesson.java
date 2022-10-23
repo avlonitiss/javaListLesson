@@ -19,6 +19,10 @@ public class ListLesson {
     public static void main(String[] args) {
         // TODO code application logic here
         List<String> countries = Arrays.asList("Germany", "Panama", "Australia");
+        
+        for (int i = 0; i < countries.size(); i++) {
+            System.out.println(countries.get(i));
+        }
     }
     
 }
