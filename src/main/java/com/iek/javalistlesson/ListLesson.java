@@ -32,6 +32,17 @@ public class ListLesson {
         for (String country : countries) {
             System.out.println(country); 
         }
+        
+        
+        /*
+        Iterator
+        */
+        
+        Iterator<String> countriesIterator = countries.iterator();
+
+            while(countriesIterator.hasNext()) {
+                System.out.println(countriesIterator.next()); 
+            }
     }
     
 }
